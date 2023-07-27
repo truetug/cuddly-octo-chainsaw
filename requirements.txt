@@ -1,0 +1,12 @@
+fastapi[all]
+httpx
+redis[async]
+
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-jaeger
+opentelemetry-propagator-jaeger
+opentelemetry-semantic-conventions
+opentelemetry-instrumentation-fastapi==0.34b0
+opentelemetry-instrumentation-httpx==0.34b0
+opentelemetry-instrumentation-redis==0.34b0
